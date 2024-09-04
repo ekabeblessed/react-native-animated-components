@@ -66,7 +66,7 @@ const captureOptions: CaptureOptions = {
 };
 
 const BACKGROUND_BLUR_RADIUS = isIOS ? 50 : 15;
-const DELAY_LONG_PRESS = isIOS ? 250 : 150; //Default is 500ms
+const DELAY_LONG_PRESS = isIOS ? 250 : 150; //Default  500ms
 
 const AnimPressable = Animated.createAnimatedComponent(Pressable);
 
